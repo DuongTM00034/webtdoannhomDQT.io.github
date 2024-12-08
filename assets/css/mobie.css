@@ -1,0 +1,123 @@
+@media (min-width: 300px) and (max-width: 700px) {
+    .hd-size, 
+    .horror-size, 
+    .movie-size, 
+    .new-size {
+        width: 50%;
+    }
+    .sword-size {
+        width: 50%;
+    }
+    .love-size {
+        width: 50%;
+    }
+    .love-sx {
+        padding: 1px 1px;
+    }
+    .anime-size {
+        width: 50%;
+    }
+    .new-size {
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    .up-sizes {
+        padding: 0 20px;
+        margin-bottom: 40px;
+    }
+    .up-size {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .mobile-size {
+        width: 37%;
+        margin: 30px;
+    }
+    .text-in{
+        margin-top: 27px;
+    }
+    .film-play {
+        margin-left: 53px;
+    }
+    .film-two {
+        margin-left: 180px;
+    }
+    .text-one {
+        width: 0%;
+    }
+    .slider-home {
+        width: 100%;
+    }
+    .subheading {
+        display: none;
+    }
+    .endheading {
+        display: none;
+    }
+    .movie-text {
+        margin-top: -125px;
+        margin-bottom: 100px;
+    }
+    .icon-play {
+        margin-left: -26%;
+        font-size: 45px;
+        margin-top: 10%;
+    }
+    .horror-title{
+        margin-bottom: 483px;
+        margin-top: -506px;
+    } 
+    .adventure-home, 
+    .anime-home, 
+    .horror-film, 
+    .movie-home, 
+    .new-home, 
+    .sword-home, 
+    .love-home {
+        width: 100%;
+    }
+    .love-text {
+        font-size: 15px;
+        margin-top: -160px;
+        margin-bottom: 140px
+    }
+    .love-tx {
+        font-size: 15px;
+        margin-top: -123px;
+        margin-bottom: 104px;
+    }
+    .love-told {
+        margin-top: -330px;
+        font-size: 20px;
+        margin-left: 25px;
+        margin-bottom: 310px;
+    }
+    .love-play-one {
+        margin-top: 12%;
+        margin-left: -29%;
+    }
+    .love-play-two {
+        margin-top: 7%;
+        margin-left: -28%;
+    }
+    .love-play-three {
+        margin-left: -55%;
+        margin-top: 25%;
+    }
+
+    .list-social {
+        padding: 15px 162px 7px 170px;
+    }
+    .film-footer {
+        margin-left: 16%;
+    }
+    ul.film-list {
+        margin-left: -55px;
+    }
+    .film-list {
+        flex: 1;
+    }
+}
+
+
+

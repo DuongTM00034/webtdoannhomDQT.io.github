@@ -1,0 +1,409 @@
+
+  .text-white {
+    font-size: 27px;
+  margin-left: 10px;
+  text-shadow: 0 0 10px var(--bs-cyan),
+   0 0 20px var(--bs-cyan),
+   0 0 40px var(--bs-cyan),
+   0 0 100px var(--bs-cyan);
+  }
+  .search-text {
+    background-color: #D9D9D9;
+  }
+  .search-icon input {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    transition: 1.5s;
+    position: relative;
+    cursor: pointer;
+  }
+  .search-icon input:hover {
+    width: 200px;
+    border-radius: 20px;
+
+  }
+  .icon-search {
+    position: absolute;
+    margin-top: 17px;
+    margin-left: -35px;
+    font-size: 21px;
+    cursor: pointer;
+  }
+  #slider {
+    height: 344px;
+    width: 100%;
+  }
+  .slider-home {
+    height: 344px;
+    width: 60%;
+  }
+  .slider-img {
+    width: 100%;
+    height: 344px;
+  }
+  .slider-img:hover {
+    opacity: 0.6;
+  }
+  .text-one {
+    float: inline-end;
+    height: 344px;
+    width: 40%;
+    display: inline-block;
+    background-color: #565252;
+  }
+  .text-in {
+    color: #ffff;
+    padding-left: 26px;
+    font-size: 15px;
+    display: block;
+    margin-top: 30px;
+    padding-right: 26px;
+  }
+  
+  .text-on {
+    font-size: 20px;
+    color: #ef410a;
+  }
+  .text-off {
+    font-size: 13px;
+    
+  }
+  .text-off:hover {
+    color: #ef410a;
+    cursor: pointer;
+  }
+  #container {
+    background-color: #000000;
+  }
+  @media (min-width: 1024px) {
+    #container .love-home, 
+    #container .sword-home, 
+    #container .anime-home, 
+    #container .adventure-home, 
+    #container .horror-film,
+    #container .movie-home, 
+    #container .new-home, 
+    #container .bxh-home, 
+    #container .film-home {
+    margin-top: 40px;
+    width: 100%;
+  }
+  }
+  .film-home {
+    margin-left: 25px;
+  }
+  .section-heading {
+  display: inline-block;
+  font-size: 20px;
+  color: cyan;
+  margin: 12px;
+  }
+  .subheading {
+  display: inline;
+  margin-left: 4px;
+  padding: 9px 29px;
+  font-size: 16px;
+  background-color: #000000;
+  border-radius: 7px;
+  } 
+  .subheading a {
+  color: #ffff;
+  text-decoration: none;
+  }
+
+  .subheading:hover  {
+  background-color: red;
+  color: #000000;
+  cursor: pointer;
+
+  }
+  .endheading {
+  float: inline-end;
+  margin-right: 55px;
+  padding: 9px 30px;
+  background-color: black;
+  font-size: 16px;
+  color: #ffff;
+  margin-top: 8px;
+  border-radius: 7px;
+  }
+  .endheading:hover {
+  background-color: red;
+  cursor: pointer;
+  }
+/* film new */
+  @media (min-width: 992px) {
+  .ms-lg-4 {
+    margin-bottom: 40px;
+  }
+  }
+  .film-home {
+    background-color: #00000093;
+  }
+  .section-heading {
+  display: inline-block;
+  font-size: 20px;
+  }
+  .film-list {
+  border-radius: 5px;
+  background-color: black;
+  }
+  .film-img {
+  width: 100%;
+  height: 200px;
+  }
+  .name-film{
+  font-size: 23px;
+  margin-bottom: 10px;
+
+  }
+  .name-film {
+    color: red;
+    font-size: 15px;
+  }
+  .film-play {
+    font-size: 16px;
+    color: red;
+    padding: 12px 28px;
+    background-color: gray;
+    margin-left: 47px;
+    border-radius: 44px;
+    
+  }
+  .film-play:hover {
+    cursor: pointer;
+    background-color: red;
+    color: #ffff;
+  }
+  .film-two {
+    font-size: 16px;
+    color: red;
+    padding: 12px 28px;
+    background-color: gray;
+    margin-left: 47px;
+    border-radius: 44px;
+    
+  }
+  .film-two:hover {
+    cursor: pointer;
+    background-color: red;
+    color: #ffff;
+  }
+  /* xong new */
+  /* bxh */
+ 
+  .bxh-image {
+    width: 100%;
+    height: 250px;
+  }
+  /* xong bxh */
+  /* film le */
+ 
+  .new-image {
+    width: 100%;
+    height: 100%;
+  }
+  .new-image:hover {
+    opacity: 0.4;
+  }
+
+  .new-item {
+    margin-left: 11px;
+    border-radius: 5px;
+    margin-top: -29px;
+    font-size: 19px;
+    color: #fff;
+  }
+  .new-item:hover {
+    color: red;
+    cursor: pointer;
+  }
+  /* xong film le */
+  /* film bo */
+  .movie-image {
+    width: 100%;
+    height: 100%;
+  }
+  .movie-text {
+    margin-left: 10px;
+    margin-top: -180px;
+    margin-bottom: 160px;
+  }
+  
+  .movie-item {
+    text-align: center;
+  }
+  .movie-item:hover {
+    color: red;
+  }
+  .icon-play {
+    opacity: 0;
+    margin-left: -13%;
+    font-size: 60px;
+    position: absolute;
+    margin-top: 5%;
+  }
+  .movie-icon:hover{
+    .icon-play{
+      opacity: 1;
+      color: red;
+    }
+  }
+  /* xong film bo */
+
+  .horror-item:hover {
+    color: red;
+    cursor: pointer;
+  }
+  .horror-title {
+      margin-left: 26px;
+      margin-top: -350px;
+      margin-bottom: 324px;
+  }
+  .horror-stop:hover {
+    cursor: pointer;
+    color: red;
+  }
+/* xong kinh di */
+  .adventure-play {
+    font-size: 16px;
+    color: red;
+    padding: 12px 28px;
+    background-color: gray;
+    margin-left: 47px;
+    border-radius: 44px;
+    text-decoration: none;
+  }
+  .adventure-play:hover {
+    cursor: pointer;
+    background-color: red;
+    color: #ffff;
+  }
+  /* xong film hanh dong */
+  .love-tx {
+    color: aqua;
+    font-size: 23px;
+    margin-top: -235px;
+    margin-left: 12px;
+    margin-bottom: 210px;
+  }
+  .love-text {
+    color: aqua;
+    font-size: 23px;
+    margin-top: -300px;
+    margin-left: 12px;
+    margin-bottom: 280px;
+  }
+  .love-told {
+    color: aqua;
+    margin-top: -285px;
+    font-size: 23px;
+    margin-left: 12px;
+    margin-bottom: 260px;
+  }
+  .love-play-one {
+    opacity: 0;
+    position: absolute;
+    font-size: 61px;
+    margin-top: 10%;
+    margin-left: -19%;
+  }
+  .love-play-two {
+    opacity: 0;
+    position: absolute;
+    font-size: 61px;
+    margin-top: 7%;
+    margin-left: -19%;
+  }
+  .love-play-three {
+    opacity: 0;
+    position: absolute;
+    font-size: 61px;
+    margin-left: -17%;
+    margin-top: 10%;
+  }
+  
+  .love-icon:hover {
+    .love-play-one, 
+    .love-play-two, 
+    .love-play-three {
+      opacity: 1;
+      color: red;
+    }
+  }
+  /* xong film tinh cam */
+  .footer {
+    width: 100%;
+    border: 1px solid;
+    background-color: #000000;
+  }
+  
+  .footer-title {
+    text-align: center;
+  }
+  
+  .gift-footer {
+    color: #ffff;
+    font-size: 20px;
+    margin-top: 28px;
+  }
+  
+  .item-footer {
+    color: #ffff;
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .list-social {
+    float: right;
+  }
+  
+  .list-social h3 {
+    color: #0075ff;
+  }
+  .icon-social {
+    font-size: 30px;
+  }
+  
+  /* .film-footer {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    margin-top: 70px;
+  } */
+  
+  .film-list h3 {
+    color: #00b2ff;
+  }
+  
+  .film-list li a {
+    line-height: 2;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .film-list li a:hover {
+    color: #D11111;
+  }
+  
+  .insta {
+    border-radius: 7px;
+    background: linear-gradient(
+      139.13deg,
+      #db00ff -2.1%,
+      #ff00a8 45.08%,
+      #ffe600 89.4%
+    );
+  }
+  
+  .fb {
+    color: #0075ff;
+  }
+  
+  .tw {
+    color: #00b2ff;
+  }
+  .gml {
+    color: #ff0303;
+  }
