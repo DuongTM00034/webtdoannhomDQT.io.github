@@ -1,4 +1,4 @@
-@media (min-width: 300px) and (max-width: 700px) {
+@media (min-width: 450px) and (max-width: 700px) {
     .hd-size, 
     .horror-size, 
     .movie-size, 
@@ -30,11 +30,11 @@
         margin-bottom: 30px;
     }
     .mobile-size {
-        width: 37%;
-        margin: 30px;
+        width: 50%;
     }
     .text-in{
         margin-top: 27px;
+        display: none;
     }
     .film-play {
         margin-left: 53px;
@@ -82,19 +82,18 @@
         margin-bottom: 140px
     }
     .love-tx {
-        font-size: 15px;
-        margin-top: -123px;
-        margin-bottom: 104px;
+        font-size: 19px;
+        margin-top: -105%;
+        margin-bottom: 100%;
     }
     .love-told {
-        margin-top: -330px;
         font-size: 20px;
         margin-left: 25px;
-        margin-bottom: 310px;
+        margin-top: -50%;
+        margin-bottom: 47%;
     }
-    .love-play-one {
-        margin-top: 12%;
-        margin-left: -29%;
+    .love-img {
+        height: 175px;
     }
     .love-play-two {
         margin-top: 7%;
@@ -106,18 +105,429 @@
     }
 
     .list-social {
-        padding: 15px 162px 7px 170px;
+        margin-right: 1%;
+        padding: 15px 100px 7px 130px;
     }
     .film-footer {
+        margin-top: 45%;
         margin-left: 16%;
+        margin-right: 1%;
     }
     ul.film-list {
         margin-left: -55px;
     }
+    .film-list li a {
+        font-size: 11px;
+    }
     .film-list {
         flex: 1;
     }
+    .text-on {
+        display: none;
+    }
+    .film-list h3 {
+        font-size: 16px;
+        color: #00b2ff;
+    }
+    .slider-home {
+        height: 281px;
+    }
+    .slider-img {
+        height: 100%;
+    }
 }
+@media (min-width: 350px) and (max-width: 400px) {
+    .text-one {
+        width: 0%;
+    }
+    .slider-home {
+        width: 100%;
+    }
+    .subheading {
+        display: none;
+    }
+    .endheading {
+        display: none;
+    }
+    .film-footer {
+        margin-top: 60%;
+        margin-left: 16%;
+        margin-right: 1%;
+    }
+    .movie-text {
+        margin-top: -52%;
+        margin-bottom: 40%;
+    }
+    
+    .hd-size, 
+    .horror-size, 
+    .movie-size, 
+    .new-size {
+        width: 50%;
+    }
+    .sword-size {
+        width: 50%;
+    }
+    .love-size {
+        width: 50%;
+    }
+    .love-sx {
+        padding: 1px 1px;
+    }
+    .anime-size {
+        width: 50%;
+    }
+    .new-size {
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    .up-sizes {
+        padding: 0 20px;
+        margin-bottom: 40px;
+    }
+    .up-size {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .mobile-size {
+        width: 50%;
+    }
+    .text-in{
+        margin-top: 27px;
+        display: none;
+    }
+    .film-list {
+        flex: 1;
+    }
+    .slider-home {
+        height: 222px;
+    }
+    .slider-img {
+        height: 100%;
+    }
+    .film-footer {
+        margin-top: 45%;
+        margin-left: -3%;
+    }
+    .film-play {
+        margin-left: 7%;
+    }
+    .film-two {
+        margin-left: 32%;
+    }
+    .adventure-play {
+        margin-left: 8%;
+    }
+    .love-tx {
+        font-size: 16px;
+        margin-top: -73%;
+        margin-bottom: 64%;
+    }
+    .love-told {
+        margin-top: -70%;
+        margin-bottom: 65%;
+    }
+    .film-list li a {
+        font-size: 11px;
+    }
+    .film-list h3 {
+        font-size: 18px;
+    }
+    .love-img {
+        height: 120px;
+    }
+    .love-play-three {
+        margin-top: 35%;
+        margin-left: -59%;
+    }
+    .love-play-two {
+        margin-top: 8%;
+        margin-left: -31%;
+    }
+}
+@media (min-width: 300px) and (max-width: 350px) {
+    .text-one {
+        width: 0%;
+    }
+    .slider-home {
+        width: 100%;
+    }
+    .subheading {
+        display: none;
+    }
+    .endheading {
+        display: none;
+    }
+    .hd-size, 
+    .horror-size, 
+    .movie-size, 
+    .new-size {
+        width: 50%;
+    }
+    .sword-size {
+        margin-bottom: 16px;
+        width: 50%;
+    }
+    .love-size {
+        width: 50%;
+    }
+    .love-sx {
+        padding: 1px 1px;
+    }
+    .anime-size {
+        width: 50%;
+    }
+    .new-size {
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    .up-sizes {
+        padding: 0 20px;
+        margin-bottom: 40px;
+    }
+    .up-size {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .mobile-size {
+        width: 50%;
+    }
+    .text-in{
+        margin-top: 27px;
+        display: none;
+    }
+    .list-social {
+        margin-right: 1%;
+        padding: 15px 2px 7px 5px;
+    }
+    .film-footer {
+        margin-top: 60%;
+        margin-left: 16%;
+        margin-right: 1%;
+    }
+    .love-told {
+        font-size: 20px;
+        margin-left: 25px;
+        margin-top: -77%;
+        margin-bottom: 73%;
+    }
+    .love-tx {
+        font-size: 19px;
+        margin-top: -125%;
+        margin-bottom: 100%;
+    }
+    .adventure-play {
+        font-size: 16px;
+        color: red;
+        padding: 10px 21px;
+        background-color: gray;
+        margin-left: 13px;
+        border-radius: 44px;
+        text-decoration: none;
+    }
+    .horror-title {
+        font-size: 22px;
+        margin-bottom: 103%;
+        margin-top: -109%;
+    }
+    .film-play {
+        margin-left: 4%;
+    }
+    .film-two {
+        margin-left: 30%;
+    }
+    .film-list {
+        flex: 1;
+    }
+    .slider-home {
+        height: 180px;
+    }
+    .slider-img {
+        height: 100%;
+    }
+    .film-footer {
+        margin-left: -3%;
+    }
+    .love-img {
+        height: 163px;
+    }
+    .love-tx {
+        margin-top: -116%;
+        margin-bottom: 77%;
+    }
+    .movie-text {
+        font-size: 14px;
+        margin-left: 10px;
+        margin-top: -60%;
+        margin-bottom: 42%;
+    }
+    .film-list h3 {
+        font-size: 20px;
+    }
+    .film-list li a {
+        font-size: 13px;
+    }
+    .icon-play {
+        opacity: 0;
+        margin-left: -31%;
+        font-size: 60px;
+        position: absolute;
+        margin-top: 3%;
+    }
+    .love-play-two {
+        margin-top: 14%;
+        margin-left: -31%;
+    }
+    .love-play-three {
+        margin-top: 28%;
+        margin-left: -60%;
+    }
+    
+}
+@media (min-width: 400px) and (max-width: 450px) {
 
-
-
+    .text-one {
+        width: 0%;
+    }
+    .slider-home {
+        width: 100%;
+    }
+    .subheading {
+        display: none;
+    }
+    .endheading {
+        display: none;
+    }
+    .film-footer {
+        margin-top: 60%;
+        margin-left: 16%;
+        margin-right: 1%;
+    }
+    .movie-text {
+        margin-top: -52%;
+        margin-bottom: 40%;
+    }
+    
+    .hd-size, 
+    .horror-size, 
+    .movie-size, 
+    .new-size {
+        width: 50%;
+    }
+    .sword-size {
+        width: 50%;
+    }
+    .love-size {
+        height: 200px;
+        width: 50%;
+    }
+    .love-sx {
+        padding: 1px 1px;
+    }
+    .anime-size {
+        width: 50%;
+    }
+    .new-size {
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    .up-sizes {
+        padding: 0 20px;
+        margin-bottom: 40px;
+    }
+    .up-size {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .mobile-size {
+        width: 50%;
+    }
+    .text-in{
+        margin-top: 27px;
+        display: none;
+    }
+    .film-list {
+        flex: 1;
+    }
+    .slider-home {
+        height: 222px;
+    }
+    .slider-img {
+        height: 100%;
+    }
+    .film-play {
+        margin-left: 19%;
+    }
+    .film-two {
+        margin-left: 35%;
+    }
+    .movie-text {
+        margin-top: -58%;
+        margin-bottom: 49%;
+    }
+    .horror-title {
+        margin-bottom: 98%;
+        margin-top: -104%;
+    }
+    .adventure-play {
+        margin-left: 17%;
+    }
+    .love-tx {
+        font-size: 19px;
+        margin-top: -91%;
+        margin-bottom: 79%;
+    }
+    .love-told {
+        margin-top: -61%;
+        margin-bottom: 55%;
+    }
+    .love-play-three {
+        margin-top: 14%;
+        margin-left: -28%;
+    }
+    .love-play-two {
+        margin-top: 11%;
+        margin-left: -28%;
+    }
+    .list-social h3 {
+        margin-left: 14%;
+    }
+    .icon-social {
+        margin-left: 14%;
+        font-size: 30px;
+    }
+    .film-footer {
+        margin-top: 35%;
+        margin-left: -3%;
+        margin-right: 1%;
+    }
+    .love-img {
+        height: 165px;
+    }
+    .film-list li a {
+        font-size: 11px;
+    }
+}    
+@media (min-width: 500px) and (max-width: 550px) {
+    .film-footer {
+        margin-top: 30%;
+        margin-left: 15%;
+    }
+    .love-tx {
+        font-size: 19px;
+        margin-top: -70%;
+        margin-bottom: 63%;
+    }
+    .love-play-two {
+        margin-top: 18%;
+        margin-left: -56%;
+    }
+    .movie-text {
+        margin-top: -135px;
+        margin-bottom: 112px;
+    }
+    .love-told {
+        margin-top: -46%;
+        margin-bottom: 44%;
+    }
+}
