@@ -156,9 +156,7 @@
   height: 200px;
   }
   .film-img:hover {
-    transform: scale3d(1.20, 1.20, 1.0);
-    object-fit: cover;
-    transition: all .8s ease-in-out;
+    opacity: 0.6;
   }
   .name-film{
   font-size: 23px;
@@ -301,6 +299,9 @@
     margin-left: 47px;
     border-radius: 44px;
     text-decoration: none;
+  }
+  .adventure-image:hover {
+    opacity: 0.7;
   }
   .adventure-play:hover {
     cursor: pointer;
@@ -540,6 +541,11 @@
     color: dimgray;
     border-top: 5px solid #fff;
   }
-
+  .fa:active {
+    color: #ffe600;
+  }
+  .fa:focus {
+    color: #fff;
+  }
 
   
