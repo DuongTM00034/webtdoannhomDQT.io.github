@@ -209,6 +209,10 @@
         margin-top: 45%;
         margin-left: -3%;
     }
+    .icon-play {
+        margin-left: -29%;
+        margin-top: 6%;
+    }
     .film-play {
         margin-left: 7%;
     }
@@ -224,13 +228,14 @@
         margin-bottom: 64%;
     }
     .love-told {
-        margin-top: -70%;
-        margin-bottom: 65%;
+        margin-top: -66%;
+        margin-bottom: 62%;
     }
     .film-list li a {
         font-size: 11px;
     }
     .film-list h3 {
+        margin-left: 7%;
         font-size: 18px;
     }
     .love-img {
@@ -243,6 +248,9 @@
     .love-play-two {
         margin-top: 8%;
         margin-left: -31%;
+    }
+    .icon-social {
+        margin-left: 7%;
     }
 }
 @media (min-width: 300px) and (max-width: 350px) {
@@ -384,7 +392,7 @@
     }
     
 }
-@media (min-width: 400px) and (max-width: 450px) {
+ @media (min-width: 400px) and (max-width: 450px) {
 
     .text-one {
         width: 0%;
@@ -448,6 +456,7 @@
     }
     .film-list {
         flex: 1;
+        font-size: 14px;
     }
     .slider-home {
         height: 222px;
@@ -455,6 +464,10 @@
     .slider-img {
         height: 100%;
     }
+    .list-social h3 {
+    margin-left: 14%;
+    }
+    
     .film-play {
         margin-left: 19%;
     }
@@ -482,15 +495,12 @@
         margin-bottom: 55%;
     }
     .love-play-three {
-        margin-top: 14%;
-        margin-left: -28%;
+        margin-top: 25%;
+        margin-left: -58%;
     }
-    .love-play-two {
+     .love-play-two {
         margin-top: 11%;
         margin-left: -28%;
-    }
-    .list-social h3 {
-        margin-left: 14%;
     }
     .icon-social {
         margin-left: 14%;
@@ -504,10 +514,11 @@
     .love-img {
         height: 165px;
     }
-    .film-list li a {
-        font-size: 11px;
+    .iconicon {
+        margin-left: 29%;
     }
-}    
+    
+}   
 @media (min-width: 500px) and (max-width: 550px) {
     .film-footer {
         margin-top: 30%;
@@ -530,4 +541,153 @@
         margin-top: -46%;
         margin-bottom: 44%;
     }
+    .love-play-two {
+        margin-top: 11%;
+        margin-left: -27%;
+    }
+    .love-play-three {
+        margin-left: -55%;
+        margin-top: 19%;
+    }
 }
+/* web twotwo */
+@media (min-width: 450px) and (max-width:550px) {
+    .icon-home a {
+        font-size: 11px;
+    }
+    .text-slider {
+        margin-top: -28%;
+    }
+    .title-home {
+        font-size: 13px;
+    }
+    .title-slider {
+        font-size: 11px;
+    }
+    .home-two {
+        margin-left: 2%;
+        margin-top: -32%;
+    }
+    .icon-home {
+        font-size: 10px;
+        padding: 4px;
+        border-radius: 5px;
+    }
+    .bl-title {
+        font-size: 17px;
+    }
+    .tag-link {
+        font-size: 12px;
+    }
+}
+@media (min-width: 350px) and (max-width:450px) {
+    .icon-home a {
+        font-size: 7px;
+    }
+    .text-slider {
+        margin-top: -28%;
+    }
+    .title-home {
+        font-size: 13px;
+        margin-bottom: 3%;
+    }
+    .title-slider {
+        font-size: 11px;
+        margin-bottom: 4%;
+    }
+    .home-two {
+        margin-left: 2%;
+        margin-top: -32%;
+    }
+    .icon-home {
+        font-size: 10px;
+        padding: 4px;
+        border-radius: 5px;
+    }
+    .tag-link {
+        font-size: 11px;
+    }
+    .bl-title {
+        font-size: 15px;
+    }
+
+}
+
+@media (min-width: 300px) and (max-width:350px) {
+    .icon-home a {
+        font-size: 7px;
+        padding: 8px;
+    }
+    .text-slider {
+        margin-top: -33%;
+    }
+    .title-home {
+        font-size: 13px;
+        margin-bottom: 3%;
+    }
+    .title-slider {
+        font-size: 11px;
+        margin-bottom: 4%;
+    }
+    .home-two {
+        margin-left: 2%;
+        margin-top: -32%;
+    }
+    .icon-home {
+        font-size: 10px;
+        padding: 4px;
+        border-radius: 5px;
+    }
+    .tag-link {
+        font-size: 11px;
+    }
+    .bl-title {
+        font-size: 15px;
+    }
+
+}
+/* web three */
+@media (min-width: 454px) and (max-width:600px) {
+    .watch-right {
+        margin-top: -6%;
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+    .watch-left { 
+        margin-top: -6%;
+    }
+    .title-dav {
+        font-size: 15px;
+    }
+}
+@media (min-width: 337px) and (max-width:454px) {
+    .watch-right {
+        margin-top: -6%;
+        margin-right: 3%;
+        margin-left: 3%;
+        font-size: 20px;
+    }
+    .watch-left { 
+        margin-top: -6%;
+        font-size: 20px;
+    }
+    .title-dav {
+        font-size: 15px;
+    }
+}
+@media (min-width: 300px) and (max-width:337px) {
+    .watch-right {
+        margin-top: -6%;
+        margin-right: 3%;
+        margin-left: 3%;
+        font-size: 15px;
+    }
+    .watch-left { 
+        margin-top: -6%;
+        font-size: 15px;
+    }
+    .title-dav {
+        font-size: 15px;
+    }
+}
+/* endend */

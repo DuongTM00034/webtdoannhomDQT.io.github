@@ -92,6 +92,7 @@
     #container .film-home {
     margin-top: 40px;
     width: 100%;
+    margin-left: 0px;
   }
   /* } */
   .section-heading {
@@ -446,6 +447,13 @@
     margin-left: 2%;
     margin-top: -27%;
   }
+  .title-slider {
+    font-size: 28px;
+  }
+  .title-home {
+  
+    font-size: 28px;
+  }
   .text-slider {
     position: absolute;
     margin-top: -17%;
@@ -481,10 +489,9 @@
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
   }
-  .tag-home {
-
-  }
+  
   .tag-link {
+    font-size: 20px;
     display: inline-block;
     background-color: darkgray;
     color: bisque;
@@ -494,6 +501,9 @@
     background-color: #D11111;
     color: #000000;
     border: 1px solid #fff;
+  }
+  .bl-title {
+    font-size: 28px;
   }
   .bl-text {
     border-bottom: 2px solid;
@@ -508,13 +518,27 @@
   .text-home {
     width: 90%;
     font-size: 24px;
-    margin: 25px 1px 25px 1px;
+    margin: 25px 0px 25px 0px;
     padding: 15px;
   }
   /* web three */
   .title-dav {
     background-color: #000000;
     border: 2px solid yellowgreen;
+  }
+  .watch-left {
+    border-top: 5px solid red;
+    float: left;
+    font-size: 26px;
+    margin-left: 3%;
+    color: dimgray;
+  }
+  .watch-right {
+    text-align: end;
+    font-size: 26px;
+    margin-left: 3%;
+    color: dimgray;
+    border-top: 5px solid #fff;
   }
 
 
